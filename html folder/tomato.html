@@ -1,0 +1,114 @@
+<Vegetable.html>
+    <title>
+    homepage:: Vegetable Shop
+    </title>
+    <head>
+    <h1 align=center> Vegetable Shop </h1>
+      <style>
+            body {
+                font-family: Times new roman, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: yellow;
+            }
+            header {
+                background-color:  yellow;
+                color: Red;
+                padding: 1rem;
+                text-align: center;
+            }
+            nav {
+                text-align: center;
+                padding: 0.5rem;
+                background-color:  yellow;
+            }
+            nav a {
+                color: Red;
+                margin:  15px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            section {
+                padding: 2rem;
+                text-align: center;
+            }
+            .products {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 2rem;
+            }
+            .product {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                background-color: #fff;
+                padding: 1rem;
+                width: 200px;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            .product img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+            .product h3 {
+                margin: 0.5rem 0;
+                font-size: 1.2rem;
+            }
+            .product p {
+                margin: 0.5rem 0;
+                color: #666;
+            }
+            footer {
+                text-align: center;
+                padding: 1rem;
+                background-color: #4CAF50;
+                color: white;
+                margin-top: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Fresh Veggies Shop</h1>
+            <p>Your one-stop shop for fresh and organic vegetables!</p>
+        </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact us</a>
+        </nav>
+        <section id="home">
+            <h2>Welcome to Fresh Veggies</h2>
+            <p>We provide high-quality, fresh vegetables directly from the farm to your table.</p>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src= "tomatoes-close-up.jpg" alt="Tomatoes" width="2000">
+                    <h3>Tomatoes</h3>
+                    <p>$2.50/kg</p>
+                </div>
+                <div class="product">
+                    <img src="download (1).jpeg" alt="Carrots">
+                    <h3>Carrots</h3>
+                    <p>$1.80/kg</p>
+                </div>
+                <div class="product">
+                    <img src="images.jpeg" alt="Spinach">
+                    <h3>Spinach</h3>
+                    <p>$1.20/bunch</p>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <p>Contact us at: freshveggies@example.com | Phone:7981424356</p>
+            <p>© 2024 Fresh Veggies Shop of ANIL</p>
+        </footer>
+    </body>
+    </html>
